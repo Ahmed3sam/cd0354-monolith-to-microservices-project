@@ -7,7 +7,7 @@ services:
 
 # Pre-testing installs
 install:
-  - npm i --package-lock-only
+  - echo "nothing needs to be installed"
 
 # Scripts to be run such as tests
 before_script:
